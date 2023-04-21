@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Hotel</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+  </style>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- nav bar -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" target="_blank" href="https://phenicieaaron.github.io/potential-fortnight-foxtrot/">Aaron Phenicie</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" target="_blank" href="https://github.com/phenicieaaron/congenial-eureka-hotel">Repository</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" target="_blank" href="https://validator.nu/?doc=https%3A%2F%2Fphenicieaaron.github.io%2Fcongenial-eureka-hotel%2F">Nu Validator</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<br>
+
+
+<h1><strong>Improvisational Banjo Lessons</strong></h1>
+<p><strong>Please enter the required information to signup.</strong></p>
+
+<br>
+<form>
+  <div class="mb-3">
+    <label for="InputEmail1" class="form-label">Email address:</label>
+    <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll most likely share your email with someone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="InputPassword1" class="form-label">Password:</label>
+    <input type="password" class="form-control" id="InputPassword1">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="Check1">
+    <label class="form-check-label" for="Check1">Checkbox!</label>
+  </div>
+  
+  <!-- text input -->
+  <div class="mb-3">
+    <label for="text" class="form-label">Please enter your full name:</label>
+    <input type="text" class="form-control" id="textarea">
+  </div>
+  <!-- textarea input -->
+  <div class="mb-3">
+    <label for="textarea" class="form-label">Please share why you are interested in the art of improvisational banjo:</label>
+    <input type="textarea" class="form-control" id="textarea">
+  </div>
+  <!-- creates and gives option for dropdown input -->
+  <div class="mb-3">
+    <label for="choice" class="form-label">Do you like this website?</label>
+    <select id="choice" name="decision">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+      <option value="eh">Kinda</option>
+    </select>
+  </div>
+  <!-- creates and gives options for radio input -->
+  <div class="mb-3">
+    <label for="textarea" class="form-label">Favorite class?</label>
+    <br>
+    <input type="radio" id="web dev" name="fav_class" value="web dev">
+    <label for="html">Web Dev</label><br>
+    <input type="radio" id="web dev??" name="fav_class" value="web dev??">
+    <label for="css">Web Dev??</label><br>
+    <input type="radio" id="just pick web dev" name="fav_class" value="just pick web dev">
+    <label for="javascript">Just pick web dev</label>
+  </div>
+  <!-- creates checkbox -->
+  <div class="mb-3">
+    <label for="checkbox">What's your favorite color?</label><br>
+    <input type="checkbox" id="color1" name="vehicle1" value="Red">
+    <label for="color1">Red</label><br>
+    <input type="checkbox" id="color2" name="vehicle2" value="Blue">
+    <label for="color2"> Blue</label><br>
+    <input type="checkbox" id="color3" name="vehicle3" value="Yellow">
+    <label for="color3"> Yellow</label><br>
+    <input type="checkbox" id="color4" name="color4" value="Other">
+    <label for="color3"> Other</label>
+    <br>
+  </div>
+  <!-- displays calendar -->
+  <div class="mb-3">
+    <label for="currentday"> What day is it?</label>
+    <input type="datetime-local" id="currentday" name="currenttime">
+  </div>
+  <div class="col text-center">
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+  <br>
+</form>
+
+
+
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
